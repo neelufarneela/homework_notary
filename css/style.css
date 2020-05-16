@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header starts*/
+header{
+	background-color: #ffffff;
+}
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 12px;
+}
+.logo{
+	float: left;
+	width: 20%;
+	padding-left: 120px;
+}
+.logo img{
+	width: 100%;
+}
+nav{}
+.menu{
+	float: right;
+	width: 70%;
+	margin-top: 0;
+}
+.menu ul{
+	margin-top: 20px;
+	margin-left: 60px;
+}
+.menu ul li{
+	float: left;
+	list-style-type: none;
+}
+.menu ul li a{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #535D69;
+	text-decoration: none;
+	margin-left: 24px;
+}
+/*header ends*/
+
+/*banner starts*/
+.banner{}
+.wrapper_2{
+	padding: 100px 0;
+}
+.bn_bg{
+	background-image: url(../images/man-laptop.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.notary{
+	width: 35%;
+	margin-left: 200px;
+}
+.notary h1{
+	font-family: sans-serif;
+	color: #fff;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 24px;
+	padding-right: 155px;
+}
+.notary p{
+	font-family: sans-serif;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 36px;
+	line-height: 30px;
+}
+.notary button{
+	padding: 10px 20px;
+	background-color: #BD233F;
+	border: none;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/*banner ends*/
+
+/*service starts*/
+.service{}
+.top{
+	text-align: center;
+	margin-top: 60px;
+}
+.top h2{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-bottom: 24px;
+}
+.top p{
+	padding: 0 365px;
+	margin-bottom: 20px;
+	color: #000000ad;
+}
+.wrapper3{
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+	padding: 12px 0 40px 166px;
+}
+.circle{
+	float: left;
+	width: 20%;
+	margin: 35px;
+}
+.circle img{
+	width: 100%;
+}
+.circle p{
+	color: #000000ad;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*service ends*/
